@@ -25,11 +25,13 @@ function App() {
               <Route path="/comics" element={<ComicsPage />} />
               <Route
                 path="/comics/:id"
-                element={<SinglePage Component={!SingleComicLayout} dataType="comic" />}
+                                // @ts-ignore
+                element={<SinglePage Component={SingleComicLayout} dataType="comic" />}
               />
               <Route
                 path="/characters/:id"
-                element={<SinglePage Component={!SingleCharacterLayout} dataType="character" />}
+                                // @ts-ignore
+                element={<SinglePage Component={SingleCharacterLayout} dataType="character" />}
               />
               <Route path="*" element={<Page404 />} />
             </Routes>
