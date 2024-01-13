@@ -2,6 +2,7 @@ import ErrorMessage from '../components/ErrorMessage/ErrorMessage';
 import Skeleton from '../components/Skeleton/Skeleton';
 import Spinner from '../components/Spinner/Spinner';
 
+// @ts-ignore
 const setContent = (process: string, Component, data) => {
   switch (process) {
     case 'waiting':

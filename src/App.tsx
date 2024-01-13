@@ -6,12 +6,12 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import AppHeader from './components/AppHeader/AppHeader';
 import Spinner from './components/Spinner/Spinner';
 
-const Page404 = lazy(() => import('./components/Pages/404'));
-const MainPage = lazy(() => import('./components/Pages/MainPage'));
-const ComicsPage = lazy(() => import('./components/Pages/ComicsPage'));
-const SingleComicLayout = lazy(() => import('./components/Pages/SingleComicLayout/SingleComicLayout'));
-const SingleCharacterLayout = lazy(() => import('./components/Pages/SingleCharacterLayout/SingleCharacterLayoutType'));
-const SinglePage = lazy(() => import('./components/Pages/SinglePage'));
+const Page404 = lazy(() => import('./components/pages/404'));
+const MainPage = lazy(() => import('./components/pages/MainPage'));
+const ComicsPage = lazy(() => import('./components/pages/ComicsPage'));
+const SingleComicLayout = lazy(() => import('./components/pages/SingleComicLayout/SingleComicLayout'));
+const SingleCharacterLayout = lazy(() => import('./components/pages/SingleCharacterLayout/SingleCharacterLayoutType'));
+const SinglePage = lazy(() => import('./components/pages/SinglePage'));
 
 function App() {
   return (

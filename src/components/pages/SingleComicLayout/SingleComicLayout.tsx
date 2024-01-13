@@ -3,7 +3,7 @@ import './SingleComicLayout.scss';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
-import { TransformComicType } from '../../../services/MarvelService';
+import { TransformComicType } from '../../../services/MarvelService.ts';
 
 function SingleComicLayout({ data }: { data: TransformComicType }) {
   const {
