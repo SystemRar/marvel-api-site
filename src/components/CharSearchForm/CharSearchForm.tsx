@@ -1,4 +1,4 @@
-import './charSearchForm.scss';
+import './CharSearchForm.scss';
 
 import {
   ErrorMessage as FormikErrorMessage, Field, Form, Formik,
