@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
-import ErrorMessage from '../ErrorMessage/ErrorMessage.tsx';
+import ErrorMessage from '../ErrorMessage/ErrorMessage';
 
 function Page404() {
   return (

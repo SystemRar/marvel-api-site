@@ -1,9 +1,9 @@
 import { ReactNode, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-import useMarvelService, { TransformCharacterType, TransformComicType } from '../../services/MarvelService.ts';
-import setContent from '../../utils/setContent.tsx';
-import AppBanner from '../AppBanner/AppBanner.tsx';
+import useMarvelService, { TransformCharacterType, TransformComicType } from '../../services/MarvelService';
+import setContent from '../../utils/setContent';
+import AppBanner from '../AppBanner/AppBanner';
 
 type SinglePagePropsType = {
   Component: ReactNode;
